@@ -32,7 +32,7 @@ A marca nasce de três ideias:
 
 | Repositório | O que é |
 |---|---|
-| [`Croma`](https://github.com/Croma-plataform/Croma) | Hub: visão geral, arquitetura e especificações |
+| [`croma-doc`](https://github.com/Croma-plataform/croma-doc) | Documentação: visão geral, arquitetura e especificações |
 | `croma-identidade` | Identidade visual v0.1 "Barras": manual, logotipo e ícones |
 | `croma-servidor` | Scripts e configuração do servidor |
 | `croma-web` | Interface web, compartilhada pelo desktop e pela TV |
