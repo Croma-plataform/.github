@@ -8,7 +8,7 @@
 
 <p align="center"><b>Servidor de mídia pessoal, com identidade visual própria.</b></p>
 
-O **Croma** reúne filmes, séries, música, fotos, TV ao vivo e livros num lugar só. Ele é feito sobre o Jellyfin (v12.4), com interface e marca próprias. O foco inicial é o desktop e a TV Samsung (Tizen); o celular vem depois.
+O **Croma** reúne vídeo, áudio, leitura e fotos num lugar só. Ele é feito sobre o Jellyfin (v12.4), com interface e marca próprias. O foco inicial é o desktop e a TV Samsung (Tizen); o celular vem depois.
 
 A marca nasce de três ideias:
 
@@ -16,17 +16,15 @@ A marca nasce de três ideias:
 2. **Uma moldura 16:9,** como a de revista, mas deitada, no formato de uma tela de TV.
 3. **"Croma" como luz e espectro:** cada cor carrega o seu comprimento de onda.
 
-### Bibliotecas
+### Seções
 
-| Barra | Biblioteca |
-|---|---|
-| `#C0C0C0` | Início |
-| `#C0C000` | Filmes |
-| `#00C0C0` | Séries |
-| `#00C000` | Música |
-| `#C000C0` | Fotos |
-| `#C00000` | TV ao vivo |
-| `#0000C0` | Livros |
+| Barra | Seção | O que reúne |
+|---|---|---|
+| `#C0C0C0` | Início | o que está em andamento e as novidades |
+| `#C0C000` | Audiovisual | filmes, séries e documentários |
+| `#00C000` | Áudios | músicas, podcasts e audiolivros |
+| `#0000C0` | Leitura | livros, HQs e mangás |
+| `#C000C0` | Fotos | fotos |
 
 ### Repositórios
 
@@ -34,7 +32,7 @@ A marca nasce de três ideias:
 |---|---|
 | [`croma-doc`](https://github.com/Croma-plataform/croma-doc) | Documentação: visão geral, arquitetura e especificações |
 | `croma-identidade` | Identidade visual v0.1 "Barras": manual, logotipo e ícones |
-| `croma-servidor` | Scripts e configuração do servidor |
+| `croma-servidor` | Servidor (fork do servidor do Jellyfin) |
 | `croma-web` | Interface web, compartilhada pelo desktop e pela TV |
 | `croma-desktop` | App desktop |
 | `croma-tizen` | App da TV Samsung |
